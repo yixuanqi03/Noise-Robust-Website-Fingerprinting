@@ -1,9 +1,5 @@
 """
-Loss function placeholders (review version).
-
-This module provides interface definitions for loss functions used in
-the experimental framework. Detailed implementations are omitted in the
-review version and will be released upon acceptance.
+This module provides interface definitions for loss functions used in the experimental framework. 
 """
 
 import torch
@@ -12,11 +8,7 @@ from torch import nn
 
 class SCELoss(nn.Module):
     """
-    Symmetric Cross Entropy (SCE) loss placeholder.
-
-    This class defines the interface of a robust loss function used
-    to mitigate noisy supervision. The specific formulation and
-    implementation details are omitted in the review version.
+    This class defines the interface of a robust loss function used to mitigate noisy supervision.
     """
 
     def __init__(self, num_classes, alpha=1.0, beta=1.0, reduction="mean"):
@@ -43,5 +35,6 @@ class SCELoss(nn.Module):
             Loss value.
         """
         raise NotImplementedError(
-            "Loss computation is omitted in the review version."
+            "Loss computation logic is intentionally omitted."
         )
+
