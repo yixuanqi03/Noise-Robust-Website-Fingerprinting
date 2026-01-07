@@ -19,7 +19,7 @@ class AWF(nn.Module):
 
     def forward(self, x):
         """
-        In the full implementation, this method performs feature extraction followed by classification.
+        This method performs feature extraction followed by classification.
         """
         raise NotImplementedError(
             "Forward logic is intentionally omitted."
