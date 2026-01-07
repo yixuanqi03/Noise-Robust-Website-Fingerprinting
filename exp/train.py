@@ -9,7 +9,7 @@ import torch
 
 def parse_args():
     """Parse command-line arguments."""
-    parser = argparse.ArgumentParser(description="Training procedure")
+    parser = argparse.ArgumentParser(description="Training pipeline")
     parser.add_argument("--dataset", type=str, required=True)
     parser.add_argument("--model", type=str, required=True)
     parser.add_argument("--device", type=str, default="cpu")
