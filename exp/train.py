@@ -18,7 +18,7 @@ def parse_args():
 
 def warmup_phase(model, dataloader, optimizer, criterion, args):
     """
-    This stage is used to obtain preliminary model representations and statistics for subsequent sample partitioning.
+    This phase is used to obtain preliminary model representations and statistics for subsequent sample partitioning.
     """
     raise NotImplementedError("Warm-up training logic is intentionally omitted.")
 
