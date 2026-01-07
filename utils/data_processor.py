@@ -1,5 +1,4 @@
 """
-Data processing utilities.
 This module provides interfaces for data preprocessing and loading routines used in the experimental framework.
 """
 
