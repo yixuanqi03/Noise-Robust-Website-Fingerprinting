@@ -4,11 +4,7 @@ from torch import nn
 
 class DF(nn.Module):
     """
-    Reference backbone placeholder (DF).
-
-    This class defines the interface of a classical Website Fingerprinting
-    model used as a baseline in the experimental framework. Architectural
-    details are omitted in the review version.
+    This class defines the interface of a classical Website Fingerprinting model used as a baseline in the experimental framework.
     """
 
     def __init__(self, num_classes=100):
@@ -22,9 +18,6 @@ class DF(nn.Module):
         self.classifier = None  # defined in the full version
 
     def forward(self, x):
-        """
-        Forward pass placeholder.
-        """
         raise NotImplementedError(
-            "Forward logic is omitted in the review version."
+            "Forward logic is intentionally omitted."
         )
