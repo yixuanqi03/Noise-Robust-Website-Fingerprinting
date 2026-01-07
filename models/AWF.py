@@ -11,10 +11,10 @@ class AWF(nn.Module):
         super(AWF, self).__init__()
         self.num_classes = num_classes
 
-        # Feature extractor placeholder
+        # Feature extractor
         self.feature_extractor = None  # defined in the full version
 
-        # Classifier placeholder
+        # Classifier
         self.classifier = None  # defined in the full version
 
     def forward(self, x):
