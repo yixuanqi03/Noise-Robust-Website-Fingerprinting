@@ -1,5 +1,3 @@
 ## Data
 
-This repository does not include any dataset.
-
-The datasets used in this study are standard benchmarks commonly adopted in the Website Fingerprinting literature.
+The experiments in this study are conducted on commonly used Website Fingerprinting benchmarks, including CW and AWF.
